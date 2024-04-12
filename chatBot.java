@@ -24,7 +24,7 @@ public class ChatBot extends JFrame implements KeyListener{
 	String[][] chatBot={
 		//standard greetings
 		{"hi","hello","hola","ola","howdy"},
-		{"hi","hello","hey"},
+		{"Wanna Make out","Honry Right now","Fuck You"},
 		//question greetings
 		{"how are you","how r you","how r u","how are u"},
 		{"good","doing well"},
@@ -74,9 +74,6 @@ public class ChatBot extends JFrame implements KeyListener{
 			}
 			quote.trim();
 			byte response=0;
-			/*
-			Code BY @Supsource
-			*/
 			//-----check for matches----
 			int j=0;//which group we're checking
 			while(response==0){
